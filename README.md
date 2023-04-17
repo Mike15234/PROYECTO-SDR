@@ -32,7 +32,7 @@ Procedimiento para utilizar el proyecto:
     Luego puede ingresar a su navegador web y dirigirse al localhost para verificar si este se encuentra funcionando.
     
   2. Clonar el repositorio.
-    Debe clonar el repositorio en una carpeta donde recuerde la direccion.
+    Debe clonar el repositorio desde la branch 'master' donde se encuentran los codigos del proyecto, todo esto en una carpeta donde recuerde la direccion.
     
   3. Del repositorio clonado es requerido cargar el archivo HTML al servidor
     Para ello se puede utilizar el comando siguiente: 'sudo cp -f archivo-a-copiar /var/www/html'
