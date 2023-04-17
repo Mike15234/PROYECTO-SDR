@@ -28,7 +28,10 @@ Recomendaciones:
 
 Procedimiento para utilizar el proyecto:
   1. Instalar el servidor Apache2. (Depende del sistema operativo la instalacion, en este caso se realiza en base a Ubuntu).
-    Para ello debe abrir la terminal, realizar la accion update y luego con la siguiente linea de comando instalar el servidor: 'sudo apt install apache2'
+    Para ello debe abrir la terminal, realizar la accion update y luego con la siguiente linea de comando instalar el servidor: 
+    
+    'sudo apt install apache2'
+    
     Luego puede ingresar a su navegador web y dirigirse al localhost para verificar si este se encuentra funcionando.
     
   2. Clonar el repositorio.
