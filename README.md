@@ -48,6 +48,6 @@ Procedimiento para utilizar el proyecto:
   
     a. Iniciar el top_block de GNU Radio para sintonizar la frecuencia deseada.
     b. Iniciar la pagina web en el localhost indicada anteriormente.
-    c. Iniciar el codigo TxRx.py en VS Code para comenzar a recibir el audio de GNU Radio y enviar los datos de transcripcion al archivo
-    de texto que se mostrara en la pagina HTML.
+    c. Iniciar el codigo TxRx.py en VS Code para comenzar a recibir el audio de GNU Radio y enviar los datos de transcripcion al 
+    archivo de texto que se mostrara en la pagina HTML.
 
