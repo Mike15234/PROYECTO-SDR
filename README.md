@@ -40,6 +40,7 @@ Procedimiento para utilizar el proyecto:
   Una vez el archivo HTML se encuentra copiado de manera correcta en el servidor, al ingresar a su navegador e introducir la direccion "localhost/ProyectoTxRx.html", este deberia mostrar la pagina web con un titulo que diga "Contenido Archivo de Texto".
   
   4. Para comenzar a utilizar la transcripcion de texto debera iniciar los programas en el siguiente orden:
+  
     a. Iniciar el top_block de GNU Radio para sintonizar la frecuencia deseada.
     b. Iniciar la pagina web en el localhost indicada anteriormente.
     c. Iniciar el codigo TxRx.py en VS Code para comenzar a recibir el audio de GNU Radio y enviar los datos de transcripcion al archivo de texto que se mostrara en la pagina HTML.
