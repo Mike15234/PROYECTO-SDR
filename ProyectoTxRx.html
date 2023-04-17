@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mostrar archivo de Texto</title>
+<meta charset="UTF-8">
+<meta http-equiv="refresh" content="2">
+<style>
+    body {
+    background-color: black;
+    color: white;
+    }
+    
+    h1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    }
+    
+    #contenido {
+    margin-top: 150px;
+    }
+    
+
+</style>
+</head>
+<body>
+<h1>Contenido del archivo de texto</h1>
+<p id="contenido"></p>
+
+<script>
+// Se define la ruta y nombre del archivo de texto a abrir
+var archivo = "transcrito.txt";
+
+// Se crea un objeto XMLHttpRequest para abrir y leer el archivo
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+if (this.readyState == 4 && this.status == 200) {
+document.getElementById("contenido").innerHTML = this.responseText;
+}
+};
+xhttp.open("GET", archivo, true);
+xhttp.send();
+</script>
+</body>
+</html>
