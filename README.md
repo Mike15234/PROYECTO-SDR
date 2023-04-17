@@ -30,7 +30,8 @@ Procedimiento para utilizar el proyecto:
   1. Instalar el servidor Apache2. (Depende del sistema operativo la instalacion, en este caso se realiza en base a Ubuntu).
     Para ello debe abrir la terminal, realizar la accion update y luego con la siguiente linea de comando instalar el servidor: 
     
-    'sudo apt install apache2'
+    sudo apt install apache2
+    
     
     Luego puede ingresar a su navegador web y dirigirse al localhost para verificar si este se encuentra funcionando.
     
@@ -38,7 +39,9 @@ Procedimiento para utilizar el proyecto:
     Debe clonar el repositorio desde la branch 'master' donde se encuentran los codigos del proyecto, todo esto en una carpeta donde recuerde la direccion.
     
   3. Del repositorio clonado es requerido cargar el archivo HTML al servidor
-    Para ello se puede utilizar el comando siguiente: 'sudo cp -f ProyectoTxRx.html /var/www/html'
+    Para ello se puede utilizar el comando siguiente: 
+    
+    sudo cp -f ProyectoTxRx.html /var/www/html
    
   Una vez el archivo HTML se encuentra copiado de manera correcta en el servidor, al ingresar a su navegador e introducir la direccion "localhost/ProyectoTxRx.html", este deberia mostrar la pagina web con un titulo que diga "Contenido Archivo de Texto".
   
