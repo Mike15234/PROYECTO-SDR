@@ -36,7 +36,11 @@ Procedimiento para utilizar el proyecto:
     
   2. Clonar el repositorio.
     Debe clonar el repositorio desde la branch 'master' donde se encuentran los codigos del proyecto, todo esto en una carpeta donde recuerde la direccion.
+    Para ello puede utilizar la siguiente linea de comando:
     
+    git clone [URL-del-repositorio] -b master
+    
+ 
   3. Del repositorio clonado es requerido cargar el archivo HTML al servidor
     Para ello se puede utilizar el comando siguiente: 
     
