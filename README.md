@@ -32,8 +32,7 @@ Procedimiento para utilizar el proyecto:
     
     sudo apt install apache2
     
-    
-    Luego puede ingresar a su navegador web y dirigirse al localhost para verificar si este se encuentra funcionando.
+  Luego puede ingresar a su navegador web y dirigirse al localhost para verificar si este se encuentra funcionando.
     
   2. Clonar el repositorio.
     Debe clonar el repositorio desde la branch 'master' donde se encuentran los codigos del proyecto, todo esto en una carpeta donde recuerde la direccion.
@@ -49,5 +48,6 @@ Procedimiento para utilizar el proyecto:
   
     a. Iniciar el top_block de GNU Radio para sintonizar la frecuencia deseada.
     b. Iniciar la pagina web en el localhost indicada anteriormente.
-    c. Iniciar el codigo TxRx.py en VS Code para comenzar a recibir el audio de GNU Radio y enviar los datos de transcripcion al archivo de texto que se mostrara en la pagina HTML.
+    c. Iniciar el codigo TxRx.py en VS Code para comenzar a recibir el audio de GNU Radio y enviar los datos de transcripcion al archivo de texto que se mostrara 
+    en la pagina HTML.
 
