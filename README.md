@@ -1,8 +1,5 @@
 # PROYECTO-SDR
 Proyecto SDR 2023
-
-# PROYECTO-SDR
-Proyecto SDR 2023
 Introduccion:
 
   Este proyecto del curso de Transmisores y Receptores en Radiocomunicaciones tiene como objetivo principal el diseño y construcción de un receptor de radio capaz de recibir una frecuencia de radio y transcribir el audio recibido. En este proyecto, se explorará cómo se reciben y cómo se decodifican las señales de audio en la frecuencia recibida. El resultado final será un receptor de radio funcional que pueda sintonizar y reproducir diversas estaciones de radio en la frecuencia deseada.
