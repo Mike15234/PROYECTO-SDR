@@ -35,9 +35,9 @@ Procedimiento para utilizar el proyecto:
     Debe clonar el repositorio desde la branch 'master' donde se encuentran los codigos del proyecto, todo esto en una carpeta donde recuerde la direccion.
     
   3. Del repositorio clonado es requerido cargar el archivo HTML al servidor
-    Para ello se puede utilizar el comando siguiente: 'sudo cp -f archivo-a-copiar /var/www/html'
+    Para ello se puede utilizar el comando siguiente: 'sudo cp -f ProyectoTxRx.html /var/www/html'
    
-  Una vez el archivo HTML se encuentra copiado de manera correcta en el servidor, al ingresar a su navegador e introducir la direccion "localhost/Proyecto_TxRx.html", este deberia mostrar la pagina web con un titulo que diga "Contenido Archivo de Texto".
+  Una vez el archivo HTML se encuentra copiado de manera correcta en el servidor, al ingresar a su navegador e introducir la direccion "localhost/ProyectoTxRx.html", este deberia mostrar la pagina web con un titulo que diga "Contenido Archivo de Texto".
   
   4. Para comenzar a utilizar la transcripcion de texto debera iniciar los programas en el siguiente orden:
     a. Iniciar el top_block de GNU Radio para sintonizar la frecuencia deseada.
